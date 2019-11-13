@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "mirza-ionic-forms": [
+        "dist/mirza-ionic-forms"
+      ],
+      "mirza-ionic-forms/*": [
+        "dist/mirza-ionic-forms/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
